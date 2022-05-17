@@ -7,7 +7,10 @@ import Search_student from './components/Search_student';
 
 function App() {
   return (
-    <div><Search_student/></div>
+    <div>
+      <Addstudent/>
+      <Search_student/>
+    </div>
   );
 }
 
